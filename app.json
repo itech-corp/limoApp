@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "sdkVersion": "35.0.0",
+    "icon": "./assets/icon1.png",
+    "slug": "nativestarterpro",
+    "loading": {
+      "hideExponentText": true,
+      "icon": "./assets/loading.png",
+      "backgroundImage": "./assets/launchscreen.png"
+    },
+    "splash": {
+      "image": "./assets/launchscreen.png",
+      "resizeMode": "cover"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "io.market.nativebase.geekyants.nativestarterpro"
+    },
+    "android": {
+      "package": "io.market.nativebase.geekyants.nativestarterpro"
+    },
+    "androidStatusBarColor": "#00c497",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#01cca1"
+    },
+    "name": "StrapNativeStarterProFullUIApp",
+    "version": "9.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "description": "A beautifully designed iOS & Android UI app source code to quickly get started on your next project. \nThis package contains 4 sub units: Full UI app, common API server between MobX starter app and Redux starter app."
+  }
+}

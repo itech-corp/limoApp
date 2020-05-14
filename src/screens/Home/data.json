@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "megaphone",
+    "listData": "Discussion With Client",
+    "time": "8:00 AM"
+  },
+  {
+    "icon": "people",
+    "listData": "Daily Stand Up",
+    "time": "10:00 AM"
+  },
+  {
+    "icon": "flag",
+    "listData": "Finish list Screen",
+    "time": "By 2:00 PM"
+  },
+  {
+    "icon": "restaurant",
+    "listData": "Lunch Break",
+    "time": "2:00 PM"
+  }
+]
