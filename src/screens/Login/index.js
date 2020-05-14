@@ -154,26 +154,14 @@ inputChangeHandler = (e, name) => {
                     onPress={() => this.props.navigation.navigate("SignUp")}
                     style={{
                       
-                      borderRightWidth:0.5,
+                     
                       height:'90%',
-                      borderColor:'#F5A10E',
+                    
                       marginBottom: Platform.OS === "ios" ? 5 : 0,
                       marginTop: Platform.OS === "ios" ? -10 : 0
                     }}
                   >
                     <Text style={{fontFamily:'Poppins-Bold',color:'grey'}}>Sign Up</Text>
-                  </Button>
-                  <Button
-                    light
-                    transparent
-                    onPress={() => this.props.navigation.navigate("Drawer")}
-                    style={{fontSize:40,
-                      height:'90%',
-                      marginBottom: Platform.OS === "ios" ? 5 : 0,
-                      marginTop: Platform.OS === "ios" ? -10 : 0
-                    }}
-                  >
-                    <Text style={{fontFamily:'Poppins-Bold',color:'grey'}}>Gest</Text>
                   </Button>
                 </View>
                 <Field
